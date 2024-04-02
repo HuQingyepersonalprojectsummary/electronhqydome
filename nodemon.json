@@ -1,0 +1,5 @@
+{  
+  "watch": ["electron-quick-start/*src.js", "electron-quick-start/**/*.html", "electron-quick-start/**/*.css"],  
+  "ext": "js,html,css",  
+  "exec": "electron ."  
+}
