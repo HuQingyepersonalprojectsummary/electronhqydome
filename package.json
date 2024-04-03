@@ -4,7 +4,8 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "nodemon --exec electron ."
+    "dev": "nodemon -e js,css,html --watch ./ --exec \"electron .\"",
+    "start": "electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -20,3 +21,4 @@
     "electron": "^23.1.4"
   }
 }
+
