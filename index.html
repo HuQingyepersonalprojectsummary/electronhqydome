@@ -8,12 +8,22 @@
 </head>
 <body>
 <h1>Hello World!</h1>
-
+<button id="btn">点击弹出通知</button>
 <!-- 如果有其他页面内容，可以放在这里 -->
+<style>
+  .red {
+    color: red;
+  }
+</style>
 
+<div>
+  机器码：
+  <span class="red" id="code">1314123523465437645646346</span>
+</div>
 <!-- 脚本通常放在底部，以确保DOM加载完毕后再执行JS代码 -->
 <script src="./src/main/menu.js"></script>
-
+<script src="./src/renderer/ipcrenderer.js"></script>
+<script src="./src/renderer/clipdoard.js"></script>
 <!-- 如果需要，将CSS样式表放在这里 -->
 <link rel="stylesheet" href="styles.css">
 </body>
