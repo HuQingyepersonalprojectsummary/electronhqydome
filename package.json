@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@electron/remote": "^2.1.2",
-    "electron-log": "^5.1.2",
+    "electron-log": "^5.1.5",
     "mojocss": "^0.1.1"
   }
 }
